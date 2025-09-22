@@ -13,6 +13,12 @@ public class CountryCodeConverterTest {
     }
 
     @Test
+    public void fromCountryCodeSHN() {
+        CountryCodeConverter converter = new CountryCodeConverter();
+        assertEquals("Saint Helena, Ascension and Tristan da Cunha", converter.fromCountryCode("shn"));
+    }
+
+    @Test
     public void fromCountryCodeAllLoaded() {
         CountryCodeConverter converter = new CountryCodeConverter();
         assertEquals(249, converter.getNumCountries());
