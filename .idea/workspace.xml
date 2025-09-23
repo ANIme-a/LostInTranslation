@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6bb2640-6010-4dab-8e4f-cebd6c429da5" name="Changes" comment="Finished Task B" />
+    <list default="true" id="a6bb2640-6010-4dab-8e4f-cebd6c429da5" name="Changes" comment="Preface to merge">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/translation/JSONTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/translation/JSONTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/translation/LanguageCodeConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/translation/LanguageCodeConverter.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,21 +22,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Evoldt123"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Evoldt123&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ANIme-a/LostInTranslation.git",
-    "accountId": "755b5933-8a94-4051-9b31-0f03d28b076a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ANIme-a/LostInTranslation.git&quot;,
+    &quot;accountId&quot;: &quot;755b5933-8a94-4051-9b31-0f03d28b076a&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="334WaQROt1BdBdI8d1Us24cD8Id" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,11 +48,15 @@
     "Application.JSONDemo.executor": "Run",
     "JUnit.All in lab3.executor": "Run",
     "JUnit.CountryCodeConverterTest.executor": "Run",
+    "JUnit.JSONTranslatorTest.executor": "Run",
     "JUnit.LanguageCodeConverterTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -58,7 +66,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LanguageCodeConverterTest">
+  <component name="RunManager" selected="JUnit.java in lab3">
     <configuration name="All in lab3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab3" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,6 +90,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JSONTranslatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="translation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="translation" />
+      <option name="MAIN_CLASS_NAME" value="translation.JSONTranslatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LanguageCodeConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab3" />
       <extension name="coverage">
@@ -93,6 +116,14 @@
       <option name="PACKAGE_NAME" value="translation" />
       <option name="MAIN_CLASS_NAME" value="translation.LanguageCodeConverterTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java in lab3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab3" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LanguageCodeConverterTest" />
+        <item itemvalue="JUnit.java in lab3" />
+        <item itemvalue="JUnit.JSONTranslatorTest" />
         <item itemvalue="JUnit.CountryCodeConverterTest" />
+        <item itemvalue="JUnit.LanguageCodeConverterTest" />
         <item itemvalue="JUnit.All in lab3" />
-        <item itemvalue="JUnit.CountryCodeConverterTest" />
-        <item itemvalue="JUnit.LanguageCodeConverterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +183,8 @@
       <option name="presentableId" value="Default" />
       <updated>1758576888144</updated>
       <workItem from="1758576889362" duration="3927000" />
+      <workItem from="1758580841255" duration="1107000" />
+      <workItem from="1758582066857" duration="4006000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Task B">
       <option name="closed" value="true" />
@@ -161,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758580608556</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Preface to merge">
+      <option name="closed" value="true" />
+      <created>1758580978532</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758580978532</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +210,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished Task B" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Task B" />
+    <MESSAGE value="Preface to merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preface to merge" />
   </component>
 </project>
