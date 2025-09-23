@@ -9,7 +9,7 @@ import java.awt.event.*;
 //            to manually enter the language code they want to use for the translation.
 //            See the examples package for some code snippets that may be useful when updating
 //            the GUI.
-public class    GUI {
+public class GUI {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
