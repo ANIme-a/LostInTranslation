@@ -4,10 +4,7 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * This class provides the service of converting country codes to their names and back.
@@ -16,6 +13,7 @@ public class CountryCodeConverter {
 
     private Map<String, String> countryCodeToCountry = new HashMap<>();
     private Map<String, String> countryToCountryCode = new HashMap<>();
+    private List<String> countryListFull = new ArrayList<>();
 
     /**
      * Default constructor that loads the country codes from "country-codes.txt"
@@ -46,6 +44,7 @@ public class CountryCodeConverter {
                 String code = parts[2].toLowerCase();
                 countryCodeToCountry.put(code, country);
                 countryToCountryCode.put(country, code);
+                countryListFull.add(country);
             }
         }
         catch (IOException | URISyntaxException ex) {
@@ -81,5 +80,13 @@ public class CountryCodeConverter {
     public int getNumCountries() {
         // TODO Task B: update this code to use an instance variable to return the correct value
         return countryCodeToCountry.size();
+    }
+
+    /**
+     * Return list of countries are included in this country code converter.
+     * @return list of countries are included in this country code converter.
+     */
+    public List<String> getCountryList() {
+        return new ArrayList<>(countryListFull);
     }
 }
